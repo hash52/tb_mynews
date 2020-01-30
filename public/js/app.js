@@ -48965,6 +48965,19 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/js/ajax_practice.js":
+/*!***************************************!*\
+  !*** ./resources/js/ajax_practice.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(function () {
+  alert('sample');
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -48978,6 +48991,8 @@ module.exports = function(module) {
  * building robust, powerful web applications using Vue and Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./ajax_practice.js */ "./resources/js/ajax_practice.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**

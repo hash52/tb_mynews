@@ -30,4 +30,8 @@ class NewsController extends Controller
      // また View テンプレートに headline、 posts、 cond_title という変数を渡している
         return view('news.index', ['headline' => $headline, 'posts' => $posts, 'cond_title' => $cond_title]);
     }
+    
+    public function apiview(Request $request){
+        return view('news.apiview');
+    }
 }
